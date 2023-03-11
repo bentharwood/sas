@@ -1,0 +1,11 @@
+commit 2df65c8788c838f50c66308695118ad126e78200 (HEAD -> main, origin/main, origin/HEAD)
+Author: ben harwood <titanharwood2016@gmail.com>
+Date:   Tue Mar 7 15:13:50 2023 -0500
+
+    phase 1 complete
+
+commit 490fae8cbf6f36393c8f8a2ed1dc567028fac3a7
+Author: Ben Harwood <titanharwood2016@gmail.com>
+Date:   Tue Feb 28 11:08:32 2023 -0500
+
+    initial commit salamander project
