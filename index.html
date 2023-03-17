@@ -1,16 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAS</title>
-</head>
-<body>
-    <h1>Southern Appalachian Salamanders</h1>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+      body {
+        background: #000;
+        text-align: center;
+        margin: 0;
+        box-shadow: inset 0 0 10px 0 #fff;
+        height: 100vh;
+      }
+
+      .shimmer {
+        font-family: "Lato";
+        font-size: 4rem;
+        margin: 0;
+      }
+
+      h1,
+      h2 {
+        color: rgba(255, 255, 255, 0.5);
+        margin: 5px;
+      }
+
+      ul {
+        list-style: ">";
+        color: #fff;
+        display: inline-block;
+      }
+
+      a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, .65);
+      }
+
+      .shimmer {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.1);
+        background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+        background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+        background-size: 125px 100%;
+        background-clip: text;
+        animation: shimmer 3s linear infinite;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-color: #222;
+      }
+
+      @keyframes shimmer {
+        0% {
+          background-position: top left;
+        }
+
+        100% {
+          background-position: top right;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1 class="shimmer">Southern Appalachian Salamanders</h1>
     <ul>
-        <li><a href="phase01/public">Phase01</a></li>
-        <li><a href="phase02/public">Phase02</a></li>
+      <li><a href="phase01/public">Phase01</a></li>
+      <li><a href="phase02/public">Phase02</a></li>
     </ul>
-</body>
+  </body>
 </html>
